@@ -6,25 +6,24 @@
  */
 
 /*
- *
+ * Use this script to start to learn how Google Ads Scripts work. 	
+ * This script will send you an email with your account name.
  */
 
 
 function main() {
   
-  //Step 1: Add Email
+  	//Step 1: Add Email
 	var recipient = "peterstavrop@gmail.com";
   
-  //Step 2: Change Subject Line
+  	//Step 2: Change Subject Line
 	var subject = "Add Subject Line Here";
   
-  var body = AdWordsApp.currentAccount().getName() + " Paid Search Email \n";
+	var body = AdWordsApp.currentAccount().getName() + " Paid Search Email \n";
   
-  //Step 3: Add Text to Email Body
-  body = body + "Add Text Here";
-
+ 	//Step 3: Add Text to Email Body
+ 	body = body + "Add Text Here";
 
 	MailApp.sendEmail(recipient, subject, body);
 	
-
 }
