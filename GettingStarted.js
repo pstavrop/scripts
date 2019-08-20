@@ -6,7 +6,7 @@
  */
 
 /*
- * Use this script to start to learn how Google Ads Scripts work. 	
+ * Use this script to start to learn how Google Ads Scripts works. 	
  * This script will send you an email with your account name.
  */
 
